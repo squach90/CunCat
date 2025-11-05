@@ -13,9 +13,3 @@ $(TARGET): $(OBJS)
 
 clean:
 	rm -f $(OBJS) $(TARGET)
-
-fclean: clean
-
-re: fclean all
-
-.PHONY: all clean fclean re
